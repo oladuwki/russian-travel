@@ -11,3 +11,34 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    width: 360px;
+    height: 66px;
+    font-size: 1.125rem;
+    line-height: 22px;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    width: 360px;
+    height: 66px;
+    font-size: 1.125rem;
+    line-height: 22px;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    width: 288px;
+    height: 48px;
+    font-size: 0.875rem;
+    line-height: 16px;
+    margin: 0%;
+  }
+}
+

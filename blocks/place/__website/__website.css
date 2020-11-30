@@ -3,3 +3,29 @@
   padding-bottom: 48px;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    width: 456px;
+    padding: 0%;
+    margin-left: 32px;
+    margin-bottom: 48px;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    width: 352px;
+    padding: 0%;
+    margin-left: 28px;
+    margin-bottom: 48px;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    display: none;
+  }
+}

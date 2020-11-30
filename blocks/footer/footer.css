@@ -8,3 +8,41 @@
   padding-top: 92px;
   padding-bottom: 24px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 928px;
+    height: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0%;
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 720px;
+    height: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 88px;
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    width: 186px;
+    padding: 0%;
+    margin: 0%;
+  }
+}
+

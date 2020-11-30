@@ -2,3 +2,25 @@
   width: 53.9%;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    width: 690px;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__container {
+    width: 288px;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__container {
+    width: 720px;
+    margin: 0%;
+  }
+}
+

@@ -12,3 +12,37 @@
   padding-top: 245px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    font-size: 4.5rem;
+    line-height: 76px;
+    width: 560px;
+    height: 152px;
+    padding-top: 115px;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 4.5rem;
+    line-height: 76px;
+    width: 560px;
+    height: 152px;
+    padding-top: 115px;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 2rem;
+    line-height: 35px;
+    width: 288px;
+    height: 70px;
+    padding-top: 33px;
+    margin: 0%;
+  }
+}
+

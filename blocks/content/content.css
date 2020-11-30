@@ -1,3 +1,24 @@
 .content {
   display: block;
 }
+
+@media screen and (max-width: 1024px) {
+  .content {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    display: block;
+  }
+}
+
+
+

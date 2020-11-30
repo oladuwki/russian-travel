@@ -10,3 +10,37 @@
   line-height: 58px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    font-size: 3.375rem;
+    line-height: 58px;
+    width: 690px;
+    min-height: 58px;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 3.375rem;
+    line-height: 58px;
+    width: 720px;
+    min-height: 58px;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 2rem;
+    line-height: 35px;
+    width: 288px;
+    min-height: 70px;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+

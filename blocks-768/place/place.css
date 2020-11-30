@@ -1,8 +1,0 @@
-@media screen and (max-width: 768px) {
-  .place {
-    display: flex;
-    flex-wrap: wrap;
-    width: 720px;
-    min-height: 581px;
-  }
-}

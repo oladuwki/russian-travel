@@ -4,3 +4,31 @@
   width: 984px;
   min-height: 660px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    display: flex;
+    flex-wrap: wrap;
+    width: 928px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    min-height: 581px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    min-height: 964px;
+  }
+}

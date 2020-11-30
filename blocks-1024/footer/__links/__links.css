@@ -1,8 +1,0 @@
-@media screen and (max-width: 1024px) {
-  .footer__links {
-    display: grid;
-    grid-template-rows: 18px;
-    grid-template-columns: 50px 57px 94px 86px 106px;
-    gap: 18px;
-  }
-}

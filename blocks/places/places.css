@@ -6,3 +6,36 @@
   flex-wrap: wrap;
   margin-top: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 928px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: 720px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 64px;
+  }
+}

@@ -3,3 +3,37 @@
   flex-direction: column;
   padding-left: 148px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 690px;
+    height: 429px;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-top: 92px;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 720px;
+    height: 429px;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-top: 88px;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 288px;
+    height: 754px;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-top: 64px;
+    margin: 0%;
+  }
+}
+

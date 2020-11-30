@@ -7,3 +7,52 @@
   line-height: 16px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    width: 186px;
+    height: 16px;
+    margin: 0%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    width: 186px;
+    height: 16px;
+    margin: 0%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    width: 186px;
+    height: 14px;
+    margin: 0%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    text-align: left;
+  }
+}
+
