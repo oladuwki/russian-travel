@@ -1,28 +1,29 @@
-.content {
+.header__lang-links {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
-  .content {
+  .header__lang-links{
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .content {
+  .header__lang-links{
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .content {
+  .header__lang-links{
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
-
-
-
