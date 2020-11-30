@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    background-image: url(../../../images/__background768.svg);
+    background-image: url(../../../images/__background768.png);
     background-repeat: no-repeat;
     width: 768px;
     height: 480px;
