@@ -12,7 +12,7 @@
 @import url(../blocks-320/lead/__title/__title.css);
 @import url(../blocks-320/lead/__subtitle/__subtitle.css);
 @import url(../blocks-320/lead/__image/__image.css);
-@import url(../blocks-320/lead/__image/_group/lead__image_group.css);
+@import url(../blocks-320/lead/__image/_group/lead_group_image.css);
 
 /* intro */
 @import url(../blocks-320/intro/intro.css);
