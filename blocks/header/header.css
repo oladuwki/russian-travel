@@ -17,11 +17,13 @@
     padding-right: 48px;
     padding-top: 28px;
     margin: 0%;
+    justify-content: space-between;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
+    justify-content: space-between;
     width: 720px;
     padding-left: 24px;
     padding-right: 24px;
@@ -32,6 +34,7 @@
 
 @media screen and (max-width: 320px) {
   .header {
+    justify-content: space-between;
     width: 288px;
     padding-left: 16px;
     padding-right: 16px;
