@@ -1,6 +1,5 @@
 @media screen and (max-width: 1024px) {
   .lead__image {
-    background-image: url(../../../images/kalegin-michail1024.png);
     width: 928px;
     height: 580px;
     margin: auto;
