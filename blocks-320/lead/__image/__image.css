@@ -2,8 +2,7 @@
   .lead__image {
     background-image: url(../../../images/kalegin-michail320.png);
     width: 320px;
-    height: 200px;;
+    height: 200px;
     margin: auto;
     align-self: center;
-  }
 }
