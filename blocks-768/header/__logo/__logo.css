@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   .header__logo {
-    background-image: url(./images/__logo.png);
+    background-image: url(../../../images/__logo.png);
     justify-content: left;
     height: 52px;
     width: 176px;
