@@ -11,8 +11,8 @@
 @import url(../blocks-768/lead/lead.css);
 @import url(../blocks-768/lead/__title/__title.css);
 @import url(../blocks-768/lead/__subtitle/__subtitle.css);
-@import url(../blocks-768/lead/__image/__image.css);
-@import url(../blocks-768/lead/__image/_group/lead__image_group.css);
+@import url(../blocks-768/lead/__image/lead__image.css);
+@import url(../blocks-768/lead/__image/_group/lead__image_group_1.css);
 @import url(../blocks-768/lead/__caption/__caption.css);
 
 /* intro */
