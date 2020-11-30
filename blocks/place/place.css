@@ -1,0 +1,6 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  width: 76.875%;
+  min-height: 660px;
+}

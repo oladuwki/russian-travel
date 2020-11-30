@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    width: 720px;
+    padding-top: 64px;
+    display: grid;
+    grid-template-rows:  264px;
+    grid-template-columns: 352px 352px;
+    grid-auto-flow: row;
+    gap: 16px;
+  }
+}

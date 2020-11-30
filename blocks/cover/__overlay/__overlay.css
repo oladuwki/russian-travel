@@ -1,0 +1,12 @@
+.cover__overlay {
+  background-image: url(../../../images/__background1280.svg);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+}
+
+.cover__overlay:hover {
+  opacity: 0.3;
+}

@@ -1,0 +1,50 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url(../blocks-320/page/page.css);
+@import url(../blocks-320/content/content.css);
+
+/* header */
+@import url(../blocks-320/header/header.css);
+@import url(../blocks-320/header/__logo/__logo.css);
+@import url(../blocks-320/header/__lang-link/__lang-link.css);
+
+/* lead */
+@import url(../blocks-320/lead/lead.css);
+@import url(../blocks-320/lead/__title/__title.css);
+@import url(../blocks-320/lead/__subtitle/__subtitle.css);
+@import url(../blocks-320/lead/__image/__image.css);
+@import url(../blocks-320/lead/__image/_group-4/lead__image_group-4.css);
+
+/* intro */
+@import url(../blocks-320/intro/intro.css);
+@import url(../blocks-320/intro/__container/__container.css);
+@import url(../blocks-320/intro/__title/__title.css);
+@import url(../blocks-320/intro/__text/__text.css);
+@import url(../blocks-320/intro/__list/__list.css);
+@import url(../blocks-320/intro/span/span.css);
+
+/* photo-grid */
+@import url(../blocks-320/photo-grid/photo-grid.css);
+@import url(../blocks-320/photo-grid/__item/__item.css);
+
+/* places */
+@import url(../blocks-320/places/places.css);
+@import url(../blocks-320/place/place.css);
+@import url(../blocks-320/place/__title/__title.css);
+@import url(../blocks-320/place/__image/__image.css);
+@import url(../blocks-320/place/__website/__website.css);
+@import url(../blocks-320/place/__url-heading/__url-heading.css);
+@import url(../blocks-320/place/__link/__link.css);
+@import url(../blocks-320/place/__paragraphs/__paragraphs.css);
+@import url(../blocks-320/place/__paragraph/__paragraph.css);
+
+/* cover */
+@import url(../blocks-320/cover/cover.css);
+@import url(../blocks-320/cover/__title/__title.css);
+@import url(../blocks-320/cover/__subtitle/__subtitle.css);
+@import url(../blocks-320/cover/__overlay/__overlay.css);
+
+/* footer */
+@import url(../blocks-320/footer/footer.css);
+@import url(../blocks-320/footer/__links/__links.css);
+@import url(../blocks-320/footer/__link/__link.css);
+@import url(../blocks-320/footer/__copyright/__copyright.css);

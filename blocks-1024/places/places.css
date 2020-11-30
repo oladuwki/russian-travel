@@ -1,0 +1,10 @@
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 928px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 92px;
+  }
+}

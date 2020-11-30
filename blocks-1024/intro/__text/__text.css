@@ -1,0 +1,10 @@
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    font-size: 1rem;
+    width: 690px;
+    height: 208px;
+    line-height: 26px;
+    margin: 0%;
+    padding-bottom: 33px;
+  }
+}

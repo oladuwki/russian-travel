@@ -1,0 +1,5 @@
+.intro {
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 148px;
+}

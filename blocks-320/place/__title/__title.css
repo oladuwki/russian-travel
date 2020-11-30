@@ -1,0 +1,17 @@
+@media screen and (max-width: 320px) {
+  .place__title {
+    margin: 0%;
+    width: 288px;
+    max-height: 70px;
+    min-height: 35px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 46px;
+    color: #FFFFFF;
+    align-content: flex-end;
+    padding-bottom: 32px;
+    padding-left: 16px;
+  }
+}

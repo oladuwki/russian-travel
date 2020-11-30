@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .intro__container {
+    width: 720px;
+    margin: 0%;
+  }
+}

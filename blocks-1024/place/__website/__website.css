@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px) {
+  .place__website {
+    width: 456px;
+    padding: 0%;
+    margin-left: 32px;
+    margin-bottom: 48px;
+    align-self: flex-end;
+  }
+}
