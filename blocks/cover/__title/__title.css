@@ -1,6 +1,7 @@
 .cover__title {
   width: 560px;
-  font-family: Inter;
+  min-height: 152px;
+  font-family: "Inter";
   text-align: center;
   font-style: normal;
   font-weight: 900;
@@ -18,7 +19,7 @@
     font-size: 4.5rem;
     line-height: 76px;
     width: 560px;
-    height: 152px;
+    min-height: 152px;
     padding-top: 115px;
     margin: 0%;
   }
@@ -29,7 +30,7 @@
     font-size: 4.5rem;
     line-height: 76px;
     width: 560px;
-    height: 152px;
+    min-height: 152px;
     padding-top: 115px;
     margin: 0%;
   }
@@ -40,7 +41,7 @@
     font-size: 2rem;
     line-height: 35px;
     width: 288px;
-    height: 70px;
+    min-height: 70px;
     padding-top: 33px;
     margin: 0%;
   }

@@ -1,7 +1,8 @@
 .lead__title {
-  width: 73.2%;
+  font-family: "Inter";
+  width: 720px;
   min-height: 200px;
-  margin: 0%;
+  margin: auto;
   align-self: center;
   justify-content: center;
   line-height: 100px;
@@ -30,11 +31,10 @@
   .lead__title {
     font-size: 6rem;
     line-height: 100px;
-    width: 720px;
+    max-width: 720px;
     min-height: 200px;
-    margin: 0%;
+    margin: auto;
     padding-left: 24px;
-    padding-right: 24px;
   }
 }
 

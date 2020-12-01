@@ -1,7 +1,11 @@
 .intro {
+  width: 690px;
+  min-height: 429px;
   flex-wrap: wrap;
   flex-direction: column;
   padding-left: 148px;
+  margin: 0%;
+
 }
 
 @media screen and (max-width: 1024px) {

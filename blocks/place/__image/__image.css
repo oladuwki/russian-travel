@@ -20,8 +20,9 @@
 
 @media screen and (max-width: 768px) {
   .place__image {
-    width: 340px;
+    max-width: 340px;
     height: 340px;
+    padding-top: 0%;
     padding-right: 28px;
     margin: 0%;
     background-size: cover;
@@ -33,8 +34,7 @@
   .place__image {
     width: 320px;
     height: 320px;
-    padding-right: 28px;
-    padding: 0%;
+    padding-right: 0%;
     margin: 0%;
     background-size: cover;
     align-self: center;
