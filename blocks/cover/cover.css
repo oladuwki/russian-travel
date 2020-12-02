@@ -11,8 +11,8 @@
 @media screen and (max-width: 1024px) {
   .cover{
     display: grid;
-    width: 100%;
-    max-width: 1024px;
+    max-width: 100%;
+    height: auto;
     grid-template-columns: minmax(min-content, max-content);
     padding-top: 0%;
     padding-bottom: 92px;

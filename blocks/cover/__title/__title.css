@@ -9,7 +9,6 @@
   align-self: center;
   justify-content: center;
   margin: 0;
-  padding-top: 245px;
   color: #FFFFFF;
 }
 
@@ -20,7 +19,10 @@
     width: 54.6875%;
     display: grid;
     grid-template-rows: minmax(min-content, max-content);
-    padding: 195px 22.65625% 32px 22.65625%;
+    padding-top: 195px;
+    padding-bottom: 32px;
+    padding-left: 22.65625%;
+    padding-right: 22.65625%;
     margin: 0%;
   }
 }

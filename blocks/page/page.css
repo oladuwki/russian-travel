@@ -18,6 +18,8 @@
     max-width: 1024px;
     flex-direction: column;
     margin: 0 auto;
+    padding-right: 0px;
+    overflow-x: hidden;
   }
 }
 
