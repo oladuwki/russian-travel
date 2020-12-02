@@ -1,5 +1,4 @@
 .header__logo {
-  background-image: url(../../../images/__logo.png);
   justify-content: left;
   min-height: 52px;
   width: 14.86%;
@@ -7,16 +6,14 @@
 
 @media screen and (max-width: 1024px) {
   .header__logo {
-    background-image: url(../../../images/__logo.png);
     justify-content: left;
-    height: 52px;
+    height: auto;
     width: 176px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header__logo {
-    background-image: url(../../../images/__logo.png);
     justify-content: left;
     height: 52px;
     width: 176px;
@@ -25,7 +22,6 @@
 
 @media screen and (max-width: 320px) {
   .header__logo {
-    background-image: url(../../../images/__logo.png);
     justify-content: left;
     height: 52px;
     width: 176px;

@@ -1,8 +1,7 @@
 .cover__overlay {
   background-image: url(../../../images/__background1280.png);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
   opacity: 0.8;
@@ -14,10 +13,11 @@
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    background-image: url(../../../images/__background1024.png);
+    background-image: url(../../../images/__background.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    height: 640px;
+    max-width: 1024px;
+    margin: 0%;
     display: flex;
     flex-direction: column;
     opacity: 0.8;
@@ -32,8 +32,6 @@
   .cover__overlay {
     background-image: url(../../../images/__background768.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 480px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -49,8 +47,6 @@
   .cover__overlay {
     background-image: url(../../../images/__background320.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 200px;
     display: flex;
     flex-direction: column;
     opacity: 0.8;

@@ -18,10 +18,10 @@
   .lead__subtitle {
     font-size: 1.875rem;
     line-height: 36px;
-    width: 640px;
-    min-height: 72px;
-    padding-top: 32px;
-    padding-bottom: 56px;
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content);
+    padding: 0%;
+    margin: 32px 18.75% 56px 18.75%;
   }
 }
 
@@ -30,7 +30,6 @@
     font-size: 1.875rem;
     line-height: 36px;
     max-width: 640px;
-    min-height: 72px;
     padding-bottom: 40px;
   }
 }
@@ -40,7 +39,6 @@
     font-size: 1rem;
     line-height: 20px;
     width: 288px;
-    min-height: 40px;
     padding-bottom: 40px;
   }
 }

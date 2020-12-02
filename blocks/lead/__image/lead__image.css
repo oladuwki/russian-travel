@@ -7,10 +7,14 @@
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-    width: 928px;
-    height: 580px;
-    margin: auto;
-    align-self: center;
+    display: grid;
+    width: 90.625%;
+    grid-template-columns: minmax(min-content, max-content);
+    column-gap: 4.6875%;
+    /* max-width: 90.625%;
+    margin-left: 4.6875%;
+    margin-right: 4.6875%; */
+    height: auto;
   }
 }
 

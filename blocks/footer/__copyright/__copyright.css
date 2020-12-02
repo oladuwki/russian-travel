@@ -1,6 +1,5 @@
 .footer__copyright {
   width: 186px;
-  min-height: 16px;
   margin: 0%;
   font-family: Inter;
   font-style: normal;
@@ -14,8 +13,7 @@
 
 @media screen and (max-width: 1024px) {
   .footer__copyright {
-    width: 186px;
-    min-height: 16px;
+    width: 20.043%;
     margin: 0%;
     font-family: Inter;
     font-style: normal;
@@ -24,13 +22,14 @@
     line-height: 16px;
     text-align: right;
     color: #FFFFFF;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content);
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
     width: 186px;
-    min-height: 16px;
     margin: 0%;
     font-family: Inter;
     font-style: normal;
@@ -45,7 +44,6 @@
 @media screen and (max-width: 320px) {
   .footer__copyright {
     width: 186px;
-    min-height: 14px;
     margin: 0%;
     font-family: Inter;
     font-style: normal;

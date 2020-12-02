@@ -9,12 +9,11 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: 928px;
-    margin: auto;
+    width: 90.625%;
+    margin: 92px 4.6875% 0% 4.6875%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 92px;
   }
 }
 
@@ -25,7 +24,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 88px;
   }
 }
 

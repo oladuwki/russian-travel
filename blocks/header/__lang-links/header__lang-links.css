@@ -5,8 +5,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .header__lang-links{
+  .header__lang-links {
     display: flex;
+    max-width: 77px;
     justify-content: center;
     align-items: center;
   }

@@ -1,6 +1,8 @@
 .cover {
-  width: 1184px;
-  height: 740px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: minmax(min-content, max-content);
+  max-width: 1184px;
   margin: auto;
   align-self: center;
   padding-top: 92px;
@@ -8,26 +10,27 @@
 
 @media screen and (max-width: 1024px) {
   .cover{
-    width: 1024px;
-    height: 640px;
-    padding-top: 92px;
+    display: grid;
+    width: 100%;
+    max-width: 1024px;
+    grid-template-columns: minmax(min-content, max-content);
+    padding-top: 0%;
     padding-bottom: 92px;
+    margin: 0%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover{
     width: 768px;
-    height: 420px;
-    padding-top: 66px;
-    padding-bottom: 64px;
+    padding-top: 90px;
+    padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover{
     width: 320px;
-    height: 200px;
     padding-top: 66px;
     padding-bottom: 64px;
   }

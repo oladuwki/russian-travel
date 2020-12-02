@@ -1,7 +1,6 @@
 .lead__title {
   font-family: "Inter";
   width: 720px;
-  min-height: 200px;
   margin: auto;
   align-self: center;
   justify-content: center;
@@ -20,10 +19,11 @@
   .lead__title {
     font-size: 6rem;
     line-height: 100px;
-    width: 720px;
-    min-height: 200px;
-    margin: 0%;
-    align-self: center;
+    width: 70.3125%;
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content);
+    padding: 0%;
+    margin: 0% 14.84375% 0% 14.84375%;
   }
 }
 
@@ -32,9 +32,8 @@
     font-size: 6rem;
     line-height: 100px;
     max-width: 720px;
-    min-height: 200px;
-    margin: auto;
-    padding-left: 24px;
+    margin: 0%;
+    padding: 0%;
   }
 }
 
@@ -43,7 +42,6 @@
     font-size: 40px;
     line-height: 44px;
     width: 288px;
-    min-height: 88px;
     margin: 0%;
     padding-left: 16px;
     padding-right: 16px;

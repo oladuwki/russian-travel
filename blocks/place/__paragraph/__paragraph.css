@@ -1,7 +1,6 @@
 .place__paragraph {
   margin: 0%;
   width: 484px;
-  min-height: 145px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -20,8 +19,7 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    width: 456px;
-    min-height: 174px;
+    width: 100%;
     margin: 0%;
     font-family: Inter;
     font-style: normal;
@@ -43,7 +41,6 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     width: 352px;
-    min-height: 182px;
     margin: 0%;
     font-family: Inter;
     font-style: normal;
@@ -67,7 +64,6 @@
 @media screen and (max-width: 320px) {
   .place__paragraph {
     width: 288px;
-    min-height: 208px;
     margin: 0%;
     font-family: Inter;
     font-style: normal;

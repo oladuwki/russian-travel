@@ -1,7 +1,6 @@
 .cover__subtitle {
   font-family: Inter;
   width: 30.41%;
-  min-height: 66px;
   align-self: center;
   margin: 0%;
   padding-top: 32px;
@@ -15,8 +14,10 @@
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    width: 360px;
-    min-height: 66px;
+    width: 32.421875%;
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content);
+    padding: 0% 32.421875% 195px 32.421875%;
     font-size: 1.125rem;
     line-height: 22px;
     margin: 0%;
@@ -26,7 +27,6 @@
 @media screen and (max-width: 768px) {
   .cover__subtitle {
     width: 360px;
-    min-height: 66px;
     font-size: 1.125rem;
     line-height: 22px;
     margin: 0%;
@@ -36,7 +36,6 @@
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     width: 288px;
-    min-height: 48px;
     font-size: 0.875rem;
     line-height: 16px;
     margin: 0%;
