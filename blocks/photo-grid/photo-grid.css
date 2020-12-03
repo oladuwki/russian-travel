@@ -23,15 +23,16 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    width:  93.75%;
-    max-width: 720px;
-    padding-top: 64px;
+    max-width: 93.75%;
+    padding: 0%;
+    margin-top: 64px;
     margin-left: 3.125%;
     margin-right: 3.125%;
+    margin-bottom: 100px;
     display: grid;
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: 48.9% 48.9%;
     grid-auto-flow: row;
-    gap: 16px;
+    gap: 2.2%;
   }
 }
 

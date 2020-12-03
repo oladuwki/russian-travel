@@ -29,15 +29,17 @@
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
-    width: 186px;
+    max-width: 25.83%;
     margin: 0%;
+    padding: 0%;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 0.875rem;
     line-height: 16px;
-    text-align: right;
     color: #FFFFFF;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content);
   }
 }
 

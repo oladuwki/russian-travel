@@ -41,9 +41,12 @@
     line-height: 28px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    padding-left: 18px;
     justify-content: right;
     align-items: right;
+  }
+
+  .header__lang-link:last-child {
+    padding-left: 18px;
   }
 }
 

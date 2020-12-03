@@ -19,11 +19,10 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 720px;
+    width: 93.75%;
     flex-direction: column;
-    padding-left: 24px;
-    padding-top: 88px;
-    margin: 0%;
+    padding: 0%;
+    margin: 88px 3.125% 0% 3.125%;
   }
 }
 

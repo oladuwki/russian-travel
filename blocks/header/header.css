@@ -18,12 +18,9 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    justify-content: space-between;
-    width: 720px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 28px;
-    margin: 0%;
+    display: flex;
+    max-width: 93.75%;
+    margin: 28px 3.125% 0% 3.125%;
   }
 }
 

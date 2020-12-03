@@ -10,6 +10,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .intro__container {
+    width: 100%;
+    margin: 0%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .intro__container {
     width: 288px;
@@ -17,10 +24,5 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .intro__container {
-    width: 720px;
-    margin: 0%;
-  }
-}
+
 

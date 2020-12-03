@@ -7,23 +7,25 @@
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-    display: grid;
-    width: 90.625%;
-    grid-template-columns: minmax(min-content, max-content);
-    column-gap: 4.6875%;
-    /* max-width: 90.625%;
+    background-repeat: no-repeat;
+    height: 580px;
+    max-width: 90.625%;
     margin-left: 4.6875%;
-    margin-right: 4.6875%; */
-    height: auto;
+    margin-right: 4.6875%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__image {
-    width: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
     height: 480px;
+    max-width: 100%;
+    padding: 0%;
     margin: 0%;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 

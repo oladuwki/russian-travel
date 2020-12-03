@@ -27,10 +27,13 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    font-size: 1.875rem;
+    font-size: 30px;
     line-height: 36px;
-    max-width: 640px;
-    padding-bottom: 40px;
+    max-width: 83.3%;
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content);
+    margin: 0% 8.3% 56px 8.3%;
+    padding: 0%;
   }
 }
 

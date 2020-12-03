@@ -24,10 +24,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 720px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 24px;
+    max-width: 93.75%;
+    margin: 0% 3.125% 24px 3.125%;
   }
 }
 

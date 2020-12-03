@@ -29,6 +29,7 @@
     max-width: 768px;
     flex-direction: column;
     margin: 0% auto;
+    overflow: overlay;
   }
 }
 

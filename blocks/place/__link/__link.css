@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1024px) {
   .place__link {
-    width: 100%;
+    max-width: 100%;
     position: relative;
     margin: 0%;
     padding-top: 12px;
@@ -27,8 +27,7 @@
 
 @media screen and (max-width: 768px) {
   .place__link {
-    width: 352px;
-    position: relative;
+    width: 100%;
     margin: 0%;
     padding-top: 12px;
     text-decoration-line: underline;

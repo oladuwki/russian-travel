@@ -18,10 +18,13 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 720px;
-    padding-top: 88px;
+    display: grid;
+    grid-template-columns: fit-content(47.2%) fit-content(48.9%);
+    row-gap: 48px;
+    column-gap: 3.9%;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
   }
 }
 
