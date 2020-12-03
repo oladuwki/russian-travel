@@ -1,6 +1,7 @@
 .photo-grid {
   padding-top: 92px;
   width: 92.5%;
+  padding: 0%;
   margin-left: 3.75%;
   margin-right: 3.75%;
   display: grid;
@@ -17,7 +18,8 @@
     margin-right: 4.6875%;
     grid-template-columns: 32.3275862% 32.3275862% 32.3275862%;
     grid-auto-flow: row;
-    gap: 1.50862069%;
+    gap: 14px;
+    margin-bottom: 92px;
   }
 }
 
@@ -25,14 +27,13 @@
   .photo-grid {
     max-width: 93.75%;
     padding: 0%;
-    margin-top: 64px;
-    margin-left: 3.125%;
-    margin-right: 3.125%;
+    padding-top: 64px;
+    margin: auto;
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 48.9% 48.9%;
     grid-auto-flow: row;
-    gap: 2.2%;
+    gap: 14px;
   }
 }
 

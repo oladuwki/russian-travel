@@ -1,5 +1,6 @@
 .place__link {
   position: relative;
+  max-width: 100%;
   margin: 0%;
   padding-top: 12px;
   text-decoration-line: underline;

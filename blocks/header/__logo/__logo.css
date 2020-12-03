@@ -1,6 +1,6 @@
 .header__logo {
   justify-content: left;
-  min-height: 52px;
+  min-height: auto;
   width: 14.86%;
 }
 

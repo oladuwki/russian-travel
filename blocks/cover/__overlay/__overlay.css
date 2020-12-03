@@ -1,7 +1,10 @@
 .cover__overlay {
-  background-image: url(../../../images/__background1280.png);
+  background-image: url(../../../images/__background1280.jpg);
   background-repeat: no-repeat;
-  max-width: 1280px;
+  background-size: cover;
+  background-position: top center;
+  max-width: 100%;
+  height: 740px;
   display: flex;
   flex-direction: column;
   opacity: 0.8;

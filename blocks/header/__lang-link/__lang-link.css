@@ -7,8 +7,11 @@
   line-height: 28px;
   text-decoration-line: underline;
   color: #FFFFFF;
-  padding-left: 18px;
   align-items: right;
+}
+
+.header__lang-link:last-child {
+  padding-left: 18px;
 }
 
 @media screen and (max-width: 1024px) {

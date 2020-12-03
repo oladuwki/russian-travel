@@ -1,9 +1,8 @@
 .intro {
-  width: 690px;
+  max-width: 53.91%;
   flex-wrap: wrap;
   flex-direction: column;
-  padding-left: 148px;
-  margin: 0%;
+  margin: 92px 34.53125% 92px 11.5625%;
 
 }
 

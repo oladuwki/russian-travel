@@ -1,5 +1,5 @@
 .places {
-  width: 984px;
+  max-width: 76.875%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 @media screen and (max-width: 1024px) {
   .places {
     width: 90.625%;
-    margin: 92px 4.6875% 0% 4.6875%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
 @media screen and (max-width: 768px) {
   .places {
     width: 93.75%;
-    margin: 0% 3.125% 0% 3.125%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -29,8 +29,7 @@
 
 @media screen and (max-width: 320px) {
   .places {
-    width: 100%;
-    margin: auto;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

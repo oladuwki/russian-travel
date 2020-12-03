@@ -1,9 +1,6 @@
 .cover {
-  display: grid;
-  width: 100%;
-  grid-template-columns: minmax(min-content, max-content);
-  max-width: 1184px;
-  margin: auto;
+  max-width: 92.5%;
+  margin: 92px 3.75% 0% 3.75%;
   align-self: center;
   padding-top: 92px;
 }

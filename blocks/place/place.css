@@ -1,12 +1,14 @@
 .place {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 984px;
+  display: grid;
+  grid-template-columns: fit-content(46.7479675%) fit-content(49.1869919%);
+  row-gap: 48px;
+  column-gap: 4.065%;
+  max-width: 100%;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    padding-bottom: 80px;
     display: grid;
     grid-template-columns: fit-content(47.4137931%) fit-content(49.137931%);
     grid-template-rows: min-content, max-content;
@@ -34,6 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    padding: 0%;
     margin-bottom: 49px;
   }
 

@@ -1,5 +1,5 @@
 .intro__container {
-  width: 53.9%;
+  max-width: 100%;
   justify-content: flex-start;
 }
 

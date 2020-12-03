@@ -1,5 +1,5 @@
 .intro__list {
-  width: 400px;
+  max-width: 100%;
   font-family: Inter;
   font-style: normal;
   font-size: 0.75rem;
