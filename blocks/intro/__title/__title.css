@@ -35,7 +35,7 @@
   .intro__title {
     font-size: 2rem;
     line-height: 35px;
-    width: 288px;
+    max-width: 100%;
     margin: 0%;
     padding: 0%;
   }

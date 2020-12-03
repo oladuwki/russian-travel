@@ -56,13 +56,16 @@
 @media screen and (max-width: 320px) {
   .place__title {
     margin: auto;
-    width: 288px;
+    width: 90%;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 2rem;
     line-height: 46px;
     color: #FFFFFF;
-    align-content: flex-end;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    margin-bottom: 0%;
   }
 }

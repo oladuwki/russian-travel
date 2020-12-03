@@ -52,7 +52,7 @@
   .cover__title {
     font-size: 2rem;
     line-height: 35px;
-    width: 288px;
+    max-width: 90%;
     padding-top: 33px;
     margin: 0%;
   }

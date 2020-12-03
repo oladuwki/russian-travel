@@ -29,11 +29,12 @@
 
 @media screen and (max-width: 320px) {
   .places {
-    width: 320px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 64px;
+    margin-bottom: 66px;
   }
 }

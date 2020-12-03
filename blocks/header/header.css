@@ -27,11 +27,9 @@
 @media screen and (max-width: 320px) {
   .header {
     justify-content: space-between;
-    width: 288px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    margin: 0%;
+    width: 90%;
+    padding: 0%;
+    margin: 16px 5% 0 5%;
   }
 }
 

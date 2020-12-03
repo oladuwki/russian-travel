@@ -23,8 +23,8 @@
 @media screen and (max-width: 320px) {
   .header__logo {
     justify-content: left;
-    height: 52px;
-    width: 176px;
+    height: auto;
+    max-width: 49.31%;
   }
 }
 

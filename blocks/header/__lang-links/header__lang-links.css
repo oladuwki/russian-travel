@@ -25,6 +25,7 @@
 @media screen and (max-width: 320px) {
   .header__lang-links{
     display: flex;
+    max-width: 62px;
     justify-content: center;
     align-items: center;
   }

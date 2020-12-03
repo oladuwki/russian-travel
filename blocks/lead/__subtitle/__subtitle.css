@@ -41,8 +41,9 @@
   .lead__subtitle {
     font-size: 1rem;
     line-height: 20px;
-    width: 288px;
-    padding-bottom: 40px;
+    width: 90%;
+    margin: 0% 5% 40px 5%;
+    padding: 0%;
   }
 }
 

@@ -28,11 +28,10 @@
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: 288px;
+    max-width: 90%;
     flex-direction: column;
-    padding-left: 16px;
-    padding-top: 64px;
-    margin: 0%;
+    padding: 0%;
+    margin: 64px 5% 0% 5%;
   }
 }
 
