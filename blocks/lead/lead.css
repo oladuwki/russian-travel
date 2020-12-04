@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .lead {
     max-width: 100%;
     margin: 0%;
@@ -31,3 +31,10 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .lead {
+    max-width: 100%;
+    margin: 0%;
+    padding-top: 48px;
+  }
+}

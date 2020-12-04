@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .header {
     justify-content: space-between;
     width: 90%;
@@ -33,3 +33,11 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .header {
+    justify-content: space-between;
+    width: 90%;
+    padding: 0%;
+    margin: 16px 5% 0 5%;
+  }
+}

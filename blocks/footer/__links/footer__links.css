@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .footer__links {
     max-width: 100%;
     display: flex;
@@ -38,3 +38,12 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .footer__links {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+  }
+}

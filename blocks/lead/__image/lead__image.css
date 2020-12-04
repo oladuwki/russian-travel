@@ -1,14 +1,14 @@
 .lead__image {
   background-repeat: no-repeat;
   max-width: 100%;
-  height: 615px;
+  height: auto;
   align-self: center;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image {
     background-repeat: no-repeat;
-    height: 580px;
+    height: auto;
     max-width: 90.625%;
     margin-left: 4.6875%;
     margin-right: 4.6875%;
@@ -20,12 +20,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    height: 480px;
+    height: auto;
     max-width: 100%;
     padding: 0%;
     margin: 0%;
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .lead__image {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    align-self: center;
   }
 }
 
@@ -37,4 +46,3 @@
     align-self: center;
   }
 }
-

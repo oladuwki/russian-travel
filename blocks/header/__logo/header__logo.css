@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .header__logo {
     justify-content: left;
     height: auto;
@@ -28,3 +28,10 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .header__logo {
+    justify-content: left;
+    height: auto;
+    max-width: 49.31%;
+  }
+}

@@ -27,6 +27,17 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .places {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-bottom: 66px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places {
     max-width: 100%;

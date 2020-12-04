@@ -36,6 +36,12 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .place__url-heading {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__url-heading {
     display: none;
