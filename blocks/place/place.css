@@ -9,23 +9,19 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    display: grid;
     grid-template-columns: fit-content(47.4137931%) fit-content(49.137931%);
-    grid-template-rows: min-content, max-content;
     grid-auto-flow: row;
-    column-gap: 3.4482586%;
+    column-gap: 32px;
     row-gap: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    display: grid;
     grid-template-columns: fit-content(47.2%) fit-content(48.9%);
     row-gap: 48px;
     column-gap: 3.9%;
     max-width: 100%;
-    margin: 0%;
     padding: 0%;
   }
 }

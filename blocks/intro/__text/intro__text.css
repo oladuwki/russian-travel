@@ -1,6 +1,6 @@
 .intro__text {
   max-width: 100%;
-  font-family: Inter;
+  font-family: 'Inter', ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
@@ -14,7 +14,7 @@
 @media screen and (max-width: 1024px) {
   .intro__text {
     font-size: 1rem;
-    width: 100%;
+    max-width: 100%;
     line-height: 26px;
     margin: 0%;
     padding-bottom: 33px;
@@ -23,30 +23,18 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    font-size: 1rem;
-    width: 100%;
-    line-height: 26px;
-    margin: 0%;
     padding-bottom: 34px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .intro__text {
-    font-size: 1rem;
-    max-width: 100%;
-    line-height: 26px;
-    margin: 0%;
     padding-bottom: 34px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__text {
-    font-size: 1rem;
-    max-width: 100%;
-    line-height: 26px;
-    margin: 0%;
     padding-bottom: 34px;
   }
 }

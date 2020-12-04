@@ -1,7 +1,7 @@
 .place__paragraph {
   margin: 0%;
-  width: 484px;
-  font-family: Inter;
+  max-width: 100%;
+  font-family: 'Inter', ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
@@ -18,58 +18,48 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .place__paragraph:first-child {
+    padding-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .place__paragraph {
-    width: 100%;
-    margin: 0%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 163%;
-    color: #FFFFFF;
   }
 
   .place__paragraph:first-child {
     padding-bottom: 27px;
   }
-
-  .place__paragraph:only-child {
-    padding: 0%;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    max-width: 100%;
-    margin: 0%;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
     font-size: 1rem;
     line-height: 163%;
-    color: #FFFFFF;
   }
   
   .place__paragraph:first-child {
     padding-bottom: 26px;
   }
+}
+
+@media screen and (max-width: 630px) {
+  .place__paragraph {
+    font-size: 0.7rem;
+    line-height: 163%;
+  }
   
-  .place__paragraph:only-child {
-    padding: 0%;
+  .place__paragraph:first-child {
+    padding-bottom: 26px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .place__paragraph {
-    max-width: 100%;
-    margin: 0%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    color: #FFFFFF;
     font-size: 16px;
     line-height: 26px;
-    padding: 0%;
   }
   
   .place__paragraph:first-child {
@@ -84,15 +74,8 @@
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    max-width: 100%;
-    margin: 0%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    color: #FFFFFF;
     font-size: 16px;
     line-height: 26px;
-    padding: 0%;
   }
   
   .place__paragraph:first-child {

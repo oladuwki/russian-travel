@@ -6,32 +6,24 @@
 
 @media screen and (max-width: 1024px) {
   .header__logo {
-    justify-content: left;
-    height: auto;
-    width: 176px;
+    max-width: 18.97%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header__logo {
-    justify-content: left;
-    height: auto;
     max-width: 24.4%;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .header__logo {
-    justify-content: left;
-    height: auto;
     max-width: 49.31%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__logo {
-    justify-content: left;
-    height: auto;
     max-width: 49.31%;
   }
 }

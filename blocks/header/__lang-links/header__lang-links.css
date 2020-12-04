@@ -5,38 +5,14 @@
   max-width: 77px;
 }
 
-@media screen and (max-width: 1024px) {
-  .header__lang-links {
-    display: flex;
-    max-width: 77px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header__lang-links{
-    display: flex;
-    max-width: 77px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .header__lang-links{
-    display: flex;
     max-width: 62px;
-    justify-content: center;
-    align-items: center;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-links{
-    display: flex;
     max-width: 62px;
-    justify-content: center;
-    align-items: center;
   }
 }

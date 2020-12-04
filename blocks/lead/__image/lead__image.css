@@ -1,13 +1,19 @@
 .lead__image {
-  background-repeat: no-repeat;
   max-width: 100%;
-  height: auto;
-  align-self: center;
+  height: 615px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-    background-repeat: no-repeat;
+    max-height: 580px;
+    max-width: 90.625%;
+    margin-left: 4.6875%;
+    margin-right: 4.6875%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
     height: auto;
     max-width: 90.625%;
     margin-left: 4.6875%;
@@ -17,9 +23,6 @@
 
 @media screen and (max-width: 768px) {
   .lead__image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
     height: auto;
     max-width: 100%;
     padding: 0%;

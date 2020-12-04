@@ -1,7 +1,7 @@
 .footer__copyright {
   max-width: 15.71%;
   margin: 0%;
-  font-family: Inter;
+  font-family: 'Inter', ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -14,61 +14,45 @@
 @media screen and (max-width: 1024px) {
   .footer__copyright {
     max-width: 20.043%;
-    margin: 0%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.875rem;
-    line-height: 16px;
-    text-align: right;
-    color: #FFFFFF;
-    display: grid;
-    grid-template-columns: minmax(min-content, max-content);
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
     max-width: 25.83%;
-    margin: 0%;
-    padding: 0%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.875rem;
-    line-height: 16px;
-    color: #FFFFFF;
-    display: grid;
-    grid-template-columns: minmax(min-content, max-content);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__copyright {
+    max-width: 25.83%;
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer__copyright {
+    max-width: 25.83%;
+    font-size: 0.45rem;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .footer__copyright {
     max-width: 100%;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.875rem;
-    line-height: 14px;
-    color: #FFFFFF;
-    padding: 0%;
     padding-top: 48px;
+    text-align: left;
     margin: 0%;
+    font-size: 0.875rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     max-width: 100%;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.875rem;
-    line-height: 14px;
-    color: #FFFFFF;
-    padding: 0%;
     padding-top: 48px;
+    text-align: left;
+    font-size: 0.875rem;
     margin: 0%;
   }
 }

@@ -13,7 +13,6 @@
   .photo-grid {
     width: 90.625%;
     padding-top: 92px;
-    display: grid;
     margin-left: 4.6875%;
     margin-right: 4.6875%;
     grid-template-columns: 32.3275862% 32.3275862% 32.3275862%;
@@ -27,13 +26,12 @@
   .photo-grid {
     max-width: 93.75%;
     padding: 0%;
-    padding-top: 64px;
     margin: auto;
-    margin-bottom: 100px;
-    display: grid;
-    grid-template-columns: 48.9% 48.9%;
+    margin-top: 88px;
+    margin-bottom: 88px;
+    grid-template-columns: 49% 49%;
     grid-auto-flow: row;
-    gap: 14px;
+    gap: 16px;
   }
 }
 
@@ -43,7 +41,6 @@
     margin: auto;
     margin-top: 64px;
     padding: 0%;
-    display: grid;
     grid-template-columns: max-content;
     grid-auto-flow: row;
     row-gap: 12px;
@@ -58,7 +55,6 @@
     margin-bottom: 0%;
     margin-top: 64px;
     padding: 0%;
-    display: grid;
     grid-template-columns: max-content;
     grid-auto-flow: row;
     row-gap: 12px;

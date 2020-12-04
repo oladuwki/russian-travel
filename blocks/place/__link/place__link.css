@@ -5,39 +5,15 @@
   padding-top: 12px;
   text-decoration-line: underline;
   color: #FFFFFF;
+  font-family: 'Inter', ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .place__link:hover {
   opacity: 0.8;
-}
-
-@media screen and (max-width: 1024px) {
-  .place__link {
-    max-width: 100%;
-    position: relative;
-    margin: 0%;
-    padding-top: 12px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-  }
-
-  .place__link:hover {
-    opacity: 0.8;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__link {
-    width: 100%;
-    margin: 0%;
-    padding-top: 12px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-  }
-
-  .place__link:hover {
-    opacity: 0.8;
-  }
 }
 
 @media screen and (max-width: 320px) {

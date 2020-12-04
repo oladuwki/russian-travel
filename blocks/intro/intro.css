@@ -8,9 +8,7 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 67.3828%;
-    flex-direction: column;
-    padding-left: 48px;
+    max-width: 67.38%;
     padding-top: 92px;
     margin: 92px 27.9297% 0% 4.6875%;
   }
@@ -18,8 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 93.75%;
-    flex-direction: column;
+    max-width: 93.75%;
     padding: 0%;
     margin: 88px 3.125% 0% 3.125%;
   }
@@ -28,7 +25,6 @@
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .intro {
     max-width: 90%;
-    flex-direction: column;
     padding: 0%;
     margin: 64px 5% 0% 5%;
   }
@@ -37,7 +33,6 @@
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 90%;
-    flex-direction: column;
     padding: 0%;
     margin: 64px 5% 0% 5%;
   }

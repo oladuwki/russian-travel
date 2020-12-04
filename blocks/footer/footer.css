@@ -10,9 +10,6 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 90.625%;
     padding: 0%;
     margin: 0% 4.6875% 24px 4.6875%;
@@ -21,11 +18,9 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     max-width: 93.75%;
-    margin: 0% 3.125% 24px 3.125%;
+    margin: auto;
+    margin-bottom: 24px;
   }
 }
 

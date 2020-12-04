@@ -1,93 +1,16 @@
 .cover__overlay {
-  background-image: url(../../../images/__background1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
   max-width: 100%;
-  height: 740px;
+  background: #2A2C2F;
   display: flex;
   flex-direction: column;
-  opacity: 0.8;
+  opacity: 0.3;
+  text-decoration-line: none;
+  margin: 0%;
+  padding: 0%;
 }
 
 .cover__overlay:hover {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__overlay {
-    background-image: url(../../../images/__background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    max-width: 100%;
-    height: 640px;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    opacity: 0.8;
-  }
-  
-  .cover__overlay:hover {
-    opacity: 0.3;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__overlay {
-    background-image: url(../../../images/__background768.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    max-width: 100%;
-    height: auto;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    opacity: 0.8;
-  }
-  
-  .cover__overlay:hover {
-    opacity: 0.3;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .cover__overlay {
-    background-image: url(../../../images/__background768.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    max-width: 100%;
-    height: auto;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    opacity: 0.8;
-  }
-
-  .cover__overlay:hover {
-    opacity: 0.3;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__overlay {
-    background-image: url(../../../images/__background320.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    max-width: 100%;
-    height: auto;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    opacity: 0.8;
-  }
-
-  .cover__overlay:hover {
-    opacity: 0.3;
-  }
-}
 
