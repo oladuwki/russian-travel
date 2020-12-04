@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .cover__overlay {
-    background-image: url(../../../images/__background320.jpg);
+    background-image: url(../../../images/__background768.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     max-width: 100%;
