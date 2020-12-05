@@ -35,7 +35,7 @@
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .place__title {
     margin: auto;
-    width: 90%;
+    max-width: 90%;
     font-size: 2rem;
     line-height: 46px;
     margin-bottom: 0%;
@@ -45,7 +45,7 @@
 @media screen and (max-width: 320px) {
   .place__title {
     margin: auto;
-    width: 90%;
+    max-width: 90%;
     font-size: 2rem;
     line-height: 46px;
     padding-bottom: 32px;

@@ -1,7 +1,7 @@
 .header__logo {
   justify-content: left;
   min-height: auto;
-  width: 14.86%;
+  max-width: 14.86%;
 }
 
 @media screen and (max-width: 1024px) {

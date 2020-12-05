@@ -1,15 +1,18 @@
 .lead {
-  display: flex;
   flex-direction: column;
-  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 56px;
-  margin: auto;
-  width: 76.875%;
+  margin-left: 11.5625%;
+  margin-right: 11.5625%;
+  max-width: 76.875%;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: 90.625%;
+    max-width: 90.625%;
     padding: 0%;
     margin: 48px 4.6875% 0% 4.6875%;
   }
@@ -17,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
   .lead {
-    width: 100%;
+    max-width: 100%;
     margin: 0%;
     padding-top: 48px;
   }

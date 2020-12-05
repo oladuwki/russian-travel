@@ -19,8 +19,7 @@
   .lead__subtitle {
     font-size: 1.875rem;
     line-height: 36px;
-    display: grid;
-    grid-template-rows: minmax(min-content, max-content);
+    max-width: 62.5%;
     padding: 0%;
     margin: 32px 18.75% 56px 18.75%;
   }
@@ -31,8 +30,6 @@
     font-size: 30px;
     line-height: 36px;
     max-width: 83.3%;
-    display: grid;
-    grid-template-rows: minmax(min-content, max-content);
     margin: 0% 8.3% 56px 8.3%;
     padding: 0%;
   }
@@ -42,7 +39,7 @@
   .lead__subtitle {
     font-size: 1rem;
     line-height: 20px;
-    width: 90%;
+    max-width: 90%;
     margin: 0% 5% 40px 5%;
     padding: 0%;
   }
@@ -52,7 +49,7 @@
   .lead__subtitle {
     font-size: 1rem;
     line-height: 20px;
-    width: 90%;
+    max-width: 90%;
     margin: 0% 5% 40px 5%;
     padding: 0%;
   }

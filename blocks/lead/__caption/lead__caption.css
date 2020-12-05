@@ -8,7 +8,7 @@
   margin: 0%;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  align-self: left;
+  align-self: flex-start;
   padding-top: 8px;
   color: #FFFFFF;
 }
