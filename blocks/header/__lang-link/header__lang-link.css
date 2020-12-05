@@ -5,7 +5,7 @@
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 28px;
-  text-decoration-line: underline;
+  text-decoration-line: none;
   color: #FFFFFF;
   align-items: right;
   padding: 0%;
@@ -17,7 +17,6 @@
 
 .header__lang-link:last-child {
   padding-left: 18px;
-  text-decoration-line: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
