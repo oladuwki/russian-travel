@@ -12,8 +12,6 @@
 
 @media screen and (max-width: 1024px) {
   .place__title {
-    font-size: 72px;
-    line-height: 76px;
     align-content: flex-end;
   }
 }
@@ -38,6 +36,7 @@
     max-width: 90%;
     font-size: 2rem;
     line-height: 46px;
+    padding: 0%;
     margin-bottom: 0%;
   }
 }
@@ -48,7 +47,7 @@
     max-width: 90%;
     font-size: 2rem;
     line-height: 46px;
-    padding-bottom: 32px;
+    padding: 0%;
     margin-bottom: 0%;
   }
 }

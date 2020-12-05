@@ -3,19 +3,24 @@
   height: 615px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .lead__image {
-    max-height: 580px;
-    max-width: 90.625%;
-    margin-left: 4.6875%;
-    margin-right: 4.6875%;
+    height: auto;
+    max-width: 100%;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
-    height: auto;
-    max-width: 90.625%;
+    max-height: 580px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    max-height: auto;
+    max-width: 100%;
     margin-left: 4.6875%;
     margin-right: 4.6875%;
   }

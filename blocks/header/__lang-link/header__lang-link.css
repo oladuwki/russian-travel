@@ -11,6 +11,10 @@
   padding: 0%;
 }
 
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
 .header__lang-link:last-child {
   padding-left: 18px;
   text-decoration-line: none;
