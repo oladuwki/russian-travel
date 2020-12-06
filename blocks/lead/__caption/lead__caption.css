@@ -9,20 +9,19 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   align-self: flex-start;
-  padding-top: 8px;
+  margin-top: 8px;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__caption {
-    margin-left: 4.6875%;
     padding: 0%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
-    margin: 8px 0% 0% 2.083%;
+    margin: 8px 0% 0% 3.125%;
   }
 }
 
