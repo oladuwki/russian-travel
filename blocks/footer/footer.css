@@ -30,11 +30,3 @@
     margin: 64px 36.875% 24px 5%;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .footer {
-    flex-direction: column;
-    max-width: 58.125%;
-    margin: 64px 36.875% 24px 5%;
-  }
-}

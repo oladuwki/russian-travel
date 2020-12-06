@@ -40,15 +40,3 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .photo-grid {
-    max-width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 0%;
-    margin-top: 64px;
-    grid-template-columns: max-content;
-    row-gap: 12px;
-  }
-}
-

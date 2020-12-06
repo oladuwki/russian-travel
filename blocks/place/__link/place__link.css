@@ -16,9 +16,3 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
-  .place__link {
-    display: none;
-  }
-}
-

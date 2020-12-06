@@ -35,17 +35,3 @@
     margin-bottom: 0%;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .place {
-    flex-direction: column;
-    grid-template-columns: 100%;
-    gap: 32px;
-    padding: 0%;
-    margin-bottom: 49px;
-  }
-
-  .place:last-child {
-    margin-bottom: 0%;
-  }
-}

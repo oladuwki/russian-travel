@@ -44,11 +44,3 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .footer__copyright {
-    max-width: 100%;
-    padding-top: 48px;
-    text-align: left;
-    font-size: 0.875rem;
-  }
-}

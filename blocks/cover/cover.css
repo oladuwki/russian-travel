@@ -29,9 +29,3 @@
     height: 200px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .cover{
-    height: 200px;
-  }
-}

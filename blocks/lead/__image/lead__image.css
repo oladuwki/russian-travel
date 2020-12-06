@@ -37,10 +37,3 @@
     align-self: center;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .lead__image {
-    margin: auto;
-    align-self: center;
-  }
-}
