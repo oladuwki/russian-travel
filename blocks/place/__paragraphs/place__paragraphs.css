@@ -2,17 +2,6 @@
   max-width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__paragraphs {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__paragraphs {
-    max-width: 100%;
-  }
-}
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .place__paragraphs {

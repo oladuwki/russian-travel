@@ -16,26 +16,24 @@
 @media screen and (max-width: 1024px) {
   .lead__caption {
     margin-left: 4.6875%;
+    padding: 0%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
     margin: 8px 0% 0% 2.083%;
-    padding: 0%;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .lead__caption {
     margin-left: 5%;
-    padding: 0%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__caption {
     margin-left: 5%;
-    padding: 0%;
   }
 }

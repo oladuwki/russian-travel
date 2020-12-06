@@ -8,26 +8,19 @@
 
 @media screen and (max-width: 1024px) {
   .footer__links {
-    max-width: 465px;
-    grid-template-rows: 18px;
     grid-template-columns: 10.753% 12.258% 20.215% 18.495% 22.796%;
-    gap: 18px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer__links {
-    max-width: 64.58%;
-    grid-template-rows: 18px;
     grid-template-columns:  10.75% 12.26% 20.22% 18.49% 22.8%;
-    gap: 18px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .footer__links {
     max-width: 100%;
-    display: grid;
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: repeat(5, 24px);
     gap: 32px;
@@ -39,7 +32,6 @@
 @media screen and (max-width: 320px) {
   .footer__links {
     max-width: 100%;
-    display: grid;
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: repeat(5, 24px);
     gap: 32px;

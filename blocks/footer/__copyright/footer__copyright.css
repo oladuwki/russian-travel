@@ -25,14 +25,12 @@
 
 @media screen and (max-width: 700px) {
   .footer__copyright {
-    max-width: 25.83%;
     font-size: 0.65rem;
   }
 }
 
 @media screen and (max-width: 520px) {
   .footer__copyright {
-    max-width: 25.83%;
     font-size: 0.45rem;
   }
 }
@@ -42,7 +40,6 @@
     max-width: 100%;
     padding-top: 48px;
     text-align: left;
-    margin: 0%;
     font-size: 0.875rem;
   }
 }
@@ -53,6 +50,5 @@
     padding-top: 48px;
     text-align: left;
     font-size: 0.875rem;
-    margin: 0%;
   }
 }
